@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{671BF8C7-E0EF-18A0-9F30-ACA64005255A}</ProjectGuid>
+    <ProjectGuid>{DD06917F-16E6-8C32-C376-EDC77F8DF8D6}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -56,36 +56,20 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\TestJob\PreRefactor\Scripts\SwapItems.cs" />
-    <Compile Include="Assets\TestJob\PostRefactor\Farmer.cs" />
-    <Compile Include="Assets\TestJob\PreRefactor\Scripts\RainSelfDestructSequence.cs" />
-    <Compile Include="Assets\TestJob\PreRefactor\Scripts\FeedbackLogics.cs" />
-    <Compile Include="Assets\TestJob\PostRefactor\ScriptsXLab\GameController.cs" />
     <Compile Include="Assets\TestJob\AlignedGames\Polygonal Foliage Asset Package\Scripts\Utility\FlyCameraBehaviour.cs" />
-    <Compile Include="Assets\TestJob\PostRefactor\ScriptsXLab\ItemsController.cs" />
     <Compile Include="Assets\Scripts\GameController.cs" />
     <Compile Include="Assets\Scripts\MysController.cs" />
-    <Compile Include="Assets\TestJob\PreRefactor\Scripts\ForceCameraAspectRatio.cs" />
     <Compile Include="Assets\Scripts\UIScorePanel.cs" />
-    <Compile Include="Assets\TestJob\PostRefactor\ScriptsXLab\Cloud.cs" />
-    <Compile Include="Assets\TestJob\PostRefactor\ScriptsXLab\StoneSpawner.cs" />
-    <Compile Include="Assets\TestJob\PreRefactor\Scripts\SpawnStone.cs" />
     <Compile Include="Assets\Scripts\Stick.cs" />
     <Compile Include="Assets\Scripts\GameSettings.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
-    <Compile Include="Assets\TestJob\PostRefactor\ScriptsXLab\CloudController.cs" />
-    <Compile Include="Assets\TestJob\PreRefactor\Scripts\CloudLogics.cs" />
     <Compile Include="Assets\Scripts\GameState.cs" />
     <Compile Include="Assets\Scripts\Bomb.cs" />
-    <Compile Include="Assets\TestJob\PostRefactor\ScriptsXLab\PanelFeedbackController.cs" />
     <Compile Include="Assets\Scripts\StoneSpawner.cs" />
     <Compile Include="Assets\Scripts\MainMenuState.cs" />
     <Compile Include="Assets\Scripts\GameEvents.cs" />
-    <Compile Include="Assets\TestJob\PostRefactor\ScriptsXLab\FreeCameraPostRefactor.cs" />
     <Compile Include="Assets\Scripts\Stone.cs" />
-    <Compile Include="Assets\TestJob\PostRefactor\ToolsChange.cs" />
     <Compile Include="Assets\Travis Game Assets\Hit Impact Effects\Demo Scene\Scripts\HitImpactEffectsPreview.cs" />
-    <Compile Include="Assets\TestJob\PreRefactor\Scripts\FreeCamera.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TestJob\TextMesh Pro\Shaders\TMPro.cginc" />

@@ -23,13 +23,25 @@ namespace Game
         {
             if (isAffect)
             {
-                
+
                 if (other.gameObject.layer == 7)
                 {
-                    GameObject.Instantiate(disappear, transform.position, transform.rotation);
-                    Destroy(gameObject);
+                    StartCoroutine(DestroyBomb());
                 }
             }
+        }
+        public IEnumerator DestroyBomb()
+        {
+            var time = 0;
+            while (time <= 1)
+            {
+                time += 1;
+                //yield return null;
+                yield return new WaitForSeconds(.2f);
+                Debug.Log("this");
+            }
+            GameObject.Instantiate(disappear, transform.position, transform.rotation);
+            Destroy(gameObject);
         }
     }
 }
